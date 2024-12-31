@@ -7,6 +7,7 @@ def greet(name = 'Vasa', age = 20):
 
 # Named arguments
 greet(age = 46)
+# Without explicit providing default arguments, python throws an error when the arguments are missing, unlike javascript
 ```
 
 ## Lambda Functions (Anonymous Functions)

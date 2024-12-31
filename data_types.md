@@ -1,4 +1,4 @@
-```
+```python
 print(type(42))
 # <class 'int'>
 ```

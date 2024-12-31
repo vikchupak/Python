@@ -4,6 +4,19 @@ print(type(42))
 ```
 
 - string
+  ```python
+  # f-strings (Literal String Interpolation)
+  print(f"{7} days in a week")
+  ```
+  ```python
+  # f-Multi-line strings
+  name = "Alice"
+  greeting = f"""Hello, 
+  {name}!
+  Welcome to the Python world."""
+  print(greeting)
+  ```
+
 - numeric
   - int
   - float `pi = 3.14159`

@@ -1,5 +1,6 @@
 - A module is a `.py` file
 - A package is a collection of modules.
+- A library is a collection of packages.
 
 Packages repo https://pypi.org/ Like npm for js.
 

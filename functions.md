@@ -89,3 +89,7 @@ greet = hello  # Assign to a new variable (New ref)
 ```python
 double = lambda x: x * 2
 ```
+
+## Func declaration and usage
+
+Both def and lambda functions cannot be used before declaration. (In js func can be used before declaration because of func hoisting)

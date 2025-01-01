@@ -68,3 +68,20 @@ print(result)  # Output: 8
 ```
 
 lambda x, y: x + y: An anonymous function that adds two values
+
+## Asssign func to var
+
+Both def and lambda functions can be assigned to vars
+
+```python
+def hello():
+    return "Hi there!"
+
+greet = hello  # Assign to a new variable (New ref)
+
+# print(greet())  # Output: Hi there!
+```
+
+```python
+double = lambda x: x * 2
+```

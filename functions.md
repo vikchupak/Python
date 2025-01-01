@@ -1,7 +1,7 @@
 - Pass by ref list, dict, set, class instance(object), bytearray
 - All other pass by value
 
-Functions can accept other functions as arguments and return functions. High order functions.
+**In python, functions can accept other functions as arguments and return functions. High order functions.**
 
 ```python
 def greet(name = 'Vasa', age = 20):

@@ -9,6 +9,8 @@ except ZeroDivisionError as e:
     print(f"Cannot divide by zero! {e}")
 except Exception as e:
     print(f"An unexpected error occurred: {e}")
+# except (requests.RequestException, ValueError)
+#     print(f"example: {e}")
 else:
   print("No exceptions")
   print(num)

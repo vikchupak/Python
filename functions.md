@@ -1,3 +1,7 @@
+## Objects
+
+There are no object literals in python. To create object, we have to create instance of a class.
+
 ## Pass by ref vs value
 
 - Pass by ref list, dict, set, class instance(object), bytearray

@@ -1,5 +1,16 @@
+## pass by ref vs value
+
 - Pass by ref list, dict, set, class instance(object), bytearray
 - All other pass by value
+
+## var scopes
+
+- In python, threre is no var hoisting like in js.
+
+Block Scope:
+
+- Python uses **function-level scope** for variables, but blocks (like if or for) do not create their own scope.
+- JavaScript has **block-level scope** with let and const, but var has function-level scope.
 
 **In python, functions can accept other functions as arguments and return functions. High order functions.**
 

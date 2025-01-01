@@ -1,3 +1,6 @@
+- Pass by ref list, dict, set, class instance(object), bytearray
+- All other pass by value
+
 Functions can accept other functions as arguments and return functions. High order functions.
 
 ```python

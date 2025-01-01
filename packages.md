@@ -18,3 +18,5 @@ By default, `pip` installs packages into the `site-packages` directory of your P
 On Ubuntu
 ~/.local/lib/python3.10/site-packages
 ```
+
+To install packages locally for a project, `virtual environment` is used.

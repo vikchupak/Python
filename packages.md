@@ -6,8 +6,8 @@ Packages repo https://pypi.org/ Like npm for js.
 
 `pip` is a package manager for Python packages, or modules if you like.
 
+**Install packages globally**
 ```bash
-# Install packages globally
 # Without sudo, the following warning 'Defaulting to user installation because normal site-packages is not writeable'
 pip install django
 pip uninstall django

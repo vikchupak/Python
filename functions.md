@@ -1,9 +1,9 @@
-## pass by ref vs value
+## Pass by ref vs value
 
 - Pass by ref list, dict, set, class instance(object), bytearray
 - All other pass by value
 
-## var scopes
+## Var scopes
 
 - In python, threre is no var hoisting like in js.
 
@@ -11,6 +11,8 @@ Block Scope:
 
 - Python uses **function-level scope** for variables, but blocks (like `if` or `for`) do not create their own scope.
 - JavaScript has **block-level scope** with `let` and `const`, but `var` has function-level scope.
+
+## General
 
 **In python, functions can accept other functions as arguments and return functions. High order functions.**
 
@@ -24,7 +26,7 @@ greet(age = 46)
 # Without explicit providing default arguments, python throws an error when the arguments are missing, unlike javascript
 ```
 
-##  Func inside func
+## Func inside func
 
 Python allows creating functions inside functions, a concept often referred to as nested functions or inner functions. These are functions defined within the scope of another function.
 

@@ -13,6 +13,37 @@ greet(age = 46)
 # Without explicit providing default arguments, python throws an error when the arguments are missing, unlike javascript
 ```
 
+##  Func inside func
+
+Python allows creating functions inside functions, a concept often referred to as nested functions or inner functions. These are functions defined within the scope of another function.
+
+```python
+def outer_function():
+    print("This is the outer function.")
+
+    def inner_function():
+        print("This is the inner function.")
+
+    inner_function()  # Calling the inner function
+
+outer_function()
+```
+
+```python
+def decorator(func):
+    def wrapper():
+        print("Something is happening before the function call.")
+        func()
+        print("Something is happening after the function call.")
+    return wrapper
+
+@decorator
+def say_hello():
+    print("Hello!")
+
+say_hello()
+```
+
 ## Lambda Functions (Anonymous Functions)
 
 A lambda function is a small, anonymous function defined with the lambda keyword. It’s often used for short operations, such as in functional programming scenarios.

@@ -29,7 +29,7 @@ This will create a `venv` directory in your project folder, which contains a cle
 
 ### **3. Activate the Virtual Environment**
 
-Once the virtual environment is created, you need to activate it.
+Once the virtual environment is created, you need to activate it. **Reactivation needed for each new terminal session.**
 
 - On **Linux/macOS**:
   ```bash

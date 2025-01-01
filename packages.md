@@ -8,8 +8,8 @@ Packages repo https://pypi.org/ Like npm for js.
 
 ```bash
 # Without sudo, the following warning 'Defaulting to user installation because normal site-packages is not writeable'
-sudo pip install django
-sudo pip uninstall django
+pip install django
+pip uninstall django
 ```
 
 By default, `pip` installs packages into the `site-packages` directory of your Python installation.
@@ -19,4 +19,4 @@ On Ubuntu
 ~/.local/lib/python3.10/site-packages
 ```
 
-To install packages locally for a project, `virtual environment` is used. See https://github.com/VIK2395/Python/blob/main/init_project.md
+To install packages locally/specifically for a project, `virtual environment` is used. See https://github.com/VIK2395/Python/blob/main/init_project.md

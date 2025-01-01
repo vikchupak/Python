@@ -9,5 +9,5 @@ sudo apt install python3
 sudo apt install python3-pip
 ```
 ```bash
-sudo apt install python3.10-venv
+sudo apt install python3-venv
 ```

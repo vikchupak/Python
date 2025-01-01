@@ -134,3 +134,20 @@ import example_module
 # Reload the module
 importlib.reload(example_module)
 ```
+
+## 7. Module excecution
+
+- A module is excecuted only once when first impoted and the result reused when importing again.
+- If a Python file is executed directly (e.g., `python my_module.py`), the code in that file will run like a standalone script. 
+- However, any code under the `if __name__ == "__main__":` block is only executed if the file is run directly, not when imported as a module.
+
+ Example:
+ ```python
+ # my_module.py
+ print("This will always run")
+
+ if __name__ == "__main__":
+     print("This will only run if the module is executed directly")
+ 
+ # Running the script directly will print both lines.
+ ```

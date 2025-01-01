@@ -19,4 +19,4 @@ On Ubuntu
 ~/.local/lib/python3.10/site-packages
 ```
 
-To install packages locally for a project, `virtual environment` is used.
+To install packages locally for a project, `virtual environment` is used. See https://github.com/VIK2395/Python/blob/main/init_project.md

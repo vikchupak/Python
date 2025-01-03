@@ -24,6 +24,7 @@ For managing environment variables in a project, it’s common to use a `.env` f
 
    # Access variables
    db_host = os.getenv("DB_HOST", "default_env_value")
+   # api_key = os.environ.get("API_KEY")  # Equivalent to os.getenv()
    api_key = os.getenv("API_KEY")
 
    print(f"Database Host: {db_host}")

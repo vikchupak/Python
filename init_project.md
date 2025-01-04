@@ -42,6 +42,11 @@ Once the virtual environment is created, you need to activate it. **Reactivation
 
 When activated, you’ll see `(venv)` appear before the command prompt, indicating that the virtual environment is active.
 
+To deactivate the virtual environment
+```bash
+deactivate
+```
+
 ---
 
 ### **4. Install Dependencies**

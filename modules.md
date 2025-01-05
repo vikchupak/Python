@@ -135,7 +135,7 @@ import example_module
 importlib.reload(example_module)
 ```
 
-## 7. Module excecution
+## 7. Module execution
 
 - A module is excecuted only once when first impoted and the result reused when importing again.
 - If a Python file is executed directly (e.g., `python my_module.py`), the code in that file will run like a standalone script. 

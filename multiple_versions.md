@@ -1,4 +1,4 @@
-# Install and manage multiple java versions
+# Install and manage multiple python versions
 
 ## Using update-alternatives (Manual, system-wide)
 

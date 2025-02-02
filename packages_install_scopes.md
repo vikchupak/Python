@@ -1,3 +1,38 @@
+# venv (enable per project dependencies)
+
+### **1. Set Up a Virtual Environment**
+
+A virtual environment helps to manage dependencies in isolation from other projects on your machine. Python's built-in `venv` module can be used to create a virtual environment.
+
+```bash
+python3 -m venv venv
+```
+
+This will create a `venv` directory in your project folder, which contains a clean Python environment.
+
+---
+
+### **2. Activate the Virtual Environment**
+
+Once the virtual environment is created, you need to activate it. **Reactivation needed for each new terminal session.**
+
+- On **Linux/macOS**:
+  ```bash
+  source venv/bin/activate
+  ```
+- On **Windows**:
+  ```cmd
+  .\venv\Scripts\activate
+  ```
+
+When activated, you’ll see `(venv)` appear before the command prompt, indicating that the virtual environment is active.
+
+To deactivate the virtual environment
+```bash
+deactivate
+```
+
+
 # Scopes
 
 - system wide
